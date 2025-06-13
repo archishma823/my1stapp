@@ -1,7 +1,11 @@
 .container{
-  height: 100vh;
-  width: 100vw;
-  background-image: url(./background.jpg);background-size: cover;
+  height: 100%;
+  width: 100%;
+  /* background-image: url(./background.jpg);background-size: cover; */
+}
+body{
+  background-image: url(./background.jpg);
+  background-size: cover;
 }
 .nav-bar{
   height: 15vh;
@@ -21,13 +25,17 @@
 .hero-section{
   
  text-align: center;
-  
-   height:75px;
-  width: 75px;
-  background-color: rgba(203, 175, 14, 0.851);
 }
 
- 
+.box{
+  height:500px;
+  width: 500px;
+  background-color: rgba(203, 175, 14, 0.851);
+  margin-left: 35%;
+}
+.box img{
+  padding: 0%;
+}
 
 .hero-section img{
    border-radius: 100px;
