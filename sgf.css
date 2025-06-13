@@ -1,0 +1,34 @@
+.container{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./background.jpg);background-size: cover;
+}
+.nav-bar{
+  height: 15vh;
+  width: 100vw;
+  background-color: rgba(203, 175, 14, 0.851);
+}
+.nav-left{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.logo{
+  height: 15vh;
+  width: 10vw;
+  margin: 0.5vh; 
+}
+.hero-section{
+  
+ text-align: center;
+  
+   height:75px;
+  width: 75px;
+  background-color: rgba(203, 175, 14, 0.851);
+}
+
+ 
+
+.hero-section img{
+   border-radius: 100px;
+}
